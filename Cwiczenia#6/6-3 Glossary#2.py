@@ -17,11 +17,11 @@ nerd_words = {
     'elif': 'something I always misspell.',
     'slice': 'preferably of pizza but also as a part of list.',
     'len': 'used to return the number of items in an object.',
-    'class': 'A template for creating user-defined objects.',
-    'importer': 'An object that both finds and loads a module;\
+    'class': 'a template for creating user-defined objects.',
+    'importer': 'an object that both finds and loads a module;\
  both a finder and loader object.',
-    'list': 'A built-in Python sequence.',
-    'loader': 'An object that loads a module.',
+    'list': 'a built-in Python sequence.',
+    'loader': 'an object that loads a module.',
 }
 
 for nerd_word in nerd_words:
