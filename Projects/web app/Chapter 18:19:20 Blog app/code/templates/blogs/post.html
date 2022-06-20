@@ -1,0 +1,15 @@
+{% extends 'blogs/base.html' %}
+
+{% block page_header %}
+  <h2>{{ title }}</h2>
+{% endblock page_header %}
+
+{% block content %}
+  
+  <p><h5>{{ text }}</h5></p>
+  
+  <p>Created: {{ date }}</p>
+
+  <p>Created by: {{ owner }}</p>
+
+{% endblock content %}
