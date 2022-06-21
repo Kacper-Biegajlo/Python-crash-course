@@ -14,10 +14,3 @@ class BlogPost(models.Model):
         """Retunrning title"""
         return self.title
 
-    def __str__(self):
-        """retunrning text"""
-        return self.text
-
-    def __str__(self):
-        """retunrning text"""
-        return self.owner

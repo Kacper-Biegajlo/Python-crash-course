@@ -8,8 +8,10 @@
   <ul>
     {% for post in posts %}
       <li><h3>
-        <a href="{% url 'blogs:post' post.id %}">{{ post.title }}</a> -
-        <a href="{% url 'blogs:edit_post' post.id %}">Edit post</a>
+        <a href="{% url 'blogs:post' post.id %}">{{ post.title }}</a> 
+        {% if request.user == post.owner %} 
+          - <a href="{% url 'blogs:edit_post' post.id %}">Edit post</a>
+        {% endif %}
       </h3></li>
     {% empty %}
       <li><h3>No posts have been created yet</h3></li>
