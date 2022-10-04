@@ -13,6 +13,6 @@
 def make_shirt(shirt_size, shirt_message):
     print(f"<<<Printing {shirt_size} shirt with message:'{shirt_message}'.>>>")
 
-make_shirt('medium', 'I have huge cock')
+make_shirt('medium', 'I like pizza!')
 
-make_shirt(shirt_size="large", shirt_message="My cock ain't that big")
+make_shirt(shirt_size="large", shirt_message="Python is the best")

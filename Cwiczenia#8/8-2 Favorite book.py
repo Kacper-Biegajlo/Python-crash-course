@@ -12,4 +12,4 @@ def favorite_book(title):
     """Displays name of one of my favorite books"""
     print(f"One of my favorite books is {title.title()}.")
 
-favorite_book('How to be Gay: Gym Edition')
+favorite_book('How to be CodeMaster: 4head Edition')

@@ -13,4 +13,4 @@ make_shirt()
 
 make_shirt(shirt_size='medium')
 
-make_shirt('small', 'I love cock')
+make_shirt('small', 'I love pizza!')

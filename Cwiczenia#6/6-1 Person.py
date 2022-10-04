@@ -9,7 +9,6 @@ Kaczor = {
     'last_name': 'Kaczyński', 
     'age': 'old',
     'city': 'Sławacinek Stary',
-    'dick_size': 'too big',
     }
 
 print(Kaczor)
@@ -17,7 +16,7 @@ print(f"First Name: {Kaczor['first_name']}")
 print(f"Second Name: {Kaczor['last_name']}")
 print(f"His age: {Kaczor['age']}")
 print(f"Place of residence: {Kaczor['city']}")
-print(f"Dick Size: {Kaczor['dick_size']}")
+
 
 
 

@@ -9,7 +9,7 @@
 #   and print each person’s name and their favorite places.
 
 fav_places = {
-    'Kaczor': ['Sławacinek', 'Sex Dungeon'],
+    'Kaczor': ['Sławacinek', 'bed'],
     'Vacool': ['Gym','Bed'],
     'Mc': ['Taxi', 'Budka z kebabem'],
 }

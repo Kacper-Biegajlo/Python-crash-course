@@ -14,5 +14,5 @@ def build_profile(first, last, **user_info):
 user_profile = build_profile('Kacper', 'Biegajło',
                                 birth_place='Biała Podlaska',
                                 age='25',
-                                dick_size='huge')
+                                )
 print(user_profile)

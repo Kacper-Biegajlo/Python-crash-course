@@ -31,7 +31,7 @@ def make_album(artist_name, album_name, songs_number=None):
 album_info_MC = make_album('MC', 'Hotel', '3')
 print(album_info_MC)
 
-album_info__Kaczohoe = make_album('Kaczor', 'Best of gay music')
+album_info__Kaczohoe = make_album('Kaczor', 'Best of classic music')
 print(album_info__Kaczohoe)
 
 album_info__Vacool = make_album('Vacool', 'Hot Ginger Solos', '69')

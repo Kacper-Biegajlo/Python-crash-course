@@ -26,7 +26,7 @@ known_languages = ['polish', 'english']
 if 'python' in known_languages:
     print("\nCongratulations you finaly know python!")
 else:
-    print("\nLearn python faster you lazy ass!")
+    print("\nLearn python faster you.")
 
 
 my_age = 25
